@@ -1,7 +1,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import Hero from "../../public/hero.png";
-
+import Button from "../components/Button/button";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -14,9 +14,9 @@ export default function Home() {
           biến ý tưởng của bạn thành hiện thực. chúng tôi tập hợp các nhóm từ
           ngành công nghệ toàn cầu
         </p>
-        <button className={styles.button}>
+        <Button url="/about" text="xem các tác phẩm của chúng tôi" className={styles.button}>
           xem các tác phẩm của chúng tôi
-        </button>
+        </Button>
       </div>
       <div className={styles.item}>
         <Image

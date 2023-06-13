@@ -38,7 +38,7 @@ const Navbar = () => {
   return (
     <div className={style.container}>
       <Link className={style.logo} href="/">
-        TuiLaPhuongMinh
+        Blog 
       </Link>
       <div className={style.link}>
         {links.map((link) => (
