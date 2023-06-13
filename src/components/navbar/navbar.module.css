@@ -5,9 +5,12 @@
   align-items: center;
 }
 .logo {
-  font-weight: bold;
-  font-size: 22px;
+  font-size: 33px;
+  font-weight: 900;
   color: #fff;
+  background: linear-gradient(to bottom, #8cf0c1, #bbb);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .link {
   display: flex;
